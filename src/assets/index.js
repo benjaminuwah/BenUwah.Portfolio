@@ -44,8 +44,14 @@ import finixx from "./finixx.png";
 import nft_ng from "./nft_ng.png";
 
 import Frontend_Dev from "./Frontend_Dev.png";
-
 import dr_kosi from "./Dr Kosi.jpeg";
+
+import client_1 from './clients/client_1.png';
+import client_2 from './clients/client_2.jpeg';
+import client_3 from './clients/client_3.png';
+import client_4 from './clients/client_4.jpeg';
+import client_5 from './clients/client_5.png';
+import client_6 from './clients/client_6.jpg';
 
 export {
   face1,
@@ -91,4 +97,10 @@ export {
   wordpress,
   chartdot,
   dr_kosi,
+  client_1,
+  client_2,
+  client_3,
+  client_4,
+  client_5,
+  client_6,
 };

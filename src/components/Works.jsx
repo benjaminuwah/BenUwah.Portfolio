@@ -1,6 +1,7 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { link } from "../assets";
@@ -76,21 +77,11 @@ const Works = () => {
         <p className={`${styles.sectionSubText} `}>Here are some of the projects I've worked on recently. Feel free to check them out</p>
         <h2 className={`${styles.sectionHeadText}`}>My Recent Projects.</h2>
       </motion.div>
-
-      {/* <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          Here are some of the projects I've worked on recently. Feel free to check them out. 
-        </motion.p>
-      </div> */}
-
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
-      </div> 
+      </div>
     </>
   );
 };

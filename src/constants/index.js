@@ -33,6 +33,12 @@ import {
   wordpress,
   khalikulture,
   dr_kosi,
+  client_1,
+  client_2,
+  client_3,
+  client_4,
+  client_5,
+  client_6,
 } from "../assets";
 
 export const navLinks = [
@@ -127,23 +133,27 @@ const technologies = [
   },
 ];
 
-const customers = [
+const clients = [
   {
-    name: "nnexx",
-    icon: znexx,
+    name: "Znexx",
+    icon: client_3,
   },
   {
-    name: "khalikulture",
-    icon: khalikulture,
+    name: "Khalikulture",
+    icon: client_2,
   },
   {
-    name: "iobotech Limited",
-    icon: iobotech,
+    name: "Iobotech Limited",
+    icon: client_1,
   },
   {
-    name: "finixx Consults",
-    icon: finixx,
+    name: "Asthma Awareness Care Group",
+    icon: client_4,
   },
+  {
+    name: "Ukason Group LTD",
+    icon: client_6,
+  }
 ];
 
 const experiences = [
@@ -287,4 +297,4 @@ const projects = [
   },
 ];
 
-export { customers, services, technologies, experiences, testimonials, projects, footerLinks };
+export { clients, services, technologies, experiences, testimonials, projects, footerLinks };

@@ -14,17 +14,27 @@ const Footer = () => {
         <p className={`${styles.sectionSubText} `}>Let's connect on some great platforms and colaborate.</p> 
         <h2 className={`${styles.sectionHeadText}`}>Connect Today.</h2> 
       </motion.div>
+      <div className={`${styles.sectionSubText} flex flex-wrap justify-between text-center mt-5`}>
+        <div>
+          <ul className='flex gap-6'>
+            <li>
+              <a href="https://github.com/benjaminuwah" target="_blank">GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/benjamin-uwah-3a6621ab/" target="_blank">Linkedin</a>
+            </li>
+            <p><a href="mailto:uwah23@gmail.com">Send Email</a></p>
+            <p><a href="tel:+2349161702603">Call me</a></p>
+          </ul>
+        </div>
+        <br />
+        <div>
+          <p>&copy; Ben Uwah. 2021 - 2023. All Rights Reserved</p>
+        </div>
+      </div>
 
-      <ul className='text-secondary flex gap-6 mt-10'>
-        <li>
-          <a href="https://github.com/benjaminuwah" target="_blank">GitHub</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/benjamin-uwah-3a6621ab/" target="_blank">Linkedin</a>
-        </li>
-        <p><a href="mailto:uwah23@gmail.com">Send Email</a></p>
-        <p><a href="tel:+2349161702603">Call me</a></p>
-      </ul>
+
+      
 
     </>
   );
