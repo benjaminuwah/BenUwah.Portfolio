@@ -11,7 +11,7 @@ const Clients = () => {
     return (
         < >
             <motion.div variants={textVariant()} className="mt-20">
-                <p className={styles.sectionSubText}> I don’t like to brag, but I’m changing the game.</p>
+                {/* <p className={styles.sectionSubText}> I don’t like to brag, but I’m changing the game.</p> */}
                 <h2 className={styles.sectionHeadText}>Clients I've worked with.</h2>
             </motion.div>
 
