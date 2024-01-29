@@ -13,6 +13,18 @@
   color-scheme: dark;
 }
 
+.btn {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #000;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
@@ -34,19 +46,19 @@
 }
 
 .violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: #5ca8ff;
+  background: linear-gradient(-90deg, #5ca8ff 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #5ca8ff 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
 
 .green-pink-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #5ca8ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #5ca8ff 97.5%);
 }
 
 .orange-text-gradient {

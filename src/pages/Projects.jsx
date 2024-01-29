@@ -1,15 +1,13 @@
 import React from 'react'
-import { Navbar } from '../components';
+import { Feedbacks, Works } from '../components';
 
 const Projects = () => {
-    return (
-        <>
-            <div>
-                <h1>Project</h1>
-                <Navbar />
-            </div>
-        </>
-    )
+  return (
+    <div className='pt-32'>
+      <Works />
+      <Feedbacks />
+    </div>
+  )
 }
 
 export default Projects;

@@ -53,12 +53,15 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <Link to={`${nav.path}`}>{nav.title}</Link>
             </li>
           ))}
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <Link to='/' className="btn hidden md:flex">My Resume</Link>
+
+        <div className='sm:hidden flex flex-1 justify-end items-center gap-2'>
+          <Link to='/' className="btn">My Resume</Link> 
           <img
             src={toggle ? close : menu}
             alt='menu'
@@ -83,7 +86,7 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <Link to={`${nav.path}`}>{nav.title}</Link>
                 </li>
               ))}
             </ul>

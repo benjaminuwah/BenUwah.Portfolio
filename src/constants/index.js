@@ -8,27 +8,19 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   nextjs,
-  mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
   iobotech,
-  chartdot,
-  tesla,
-  shopify,
   znexx,
-  carrent,
-  jobit,
   znexx_designs,
-  finixx,
   nft_ng,
-  tripguide,
+  browpay,
+  rovinguard,
+  dcatalogue,
   threejs,
   wordpress,
   khalikulture,
@@ -43,19 +35,19 @@ import {
 
 export const navLinks = [
   {
-    id: "about",
+    path: "/About",
     title: "About Me",
   },
   {
-    id: "work",
-    title: "My Projects",
+    path: "/Skills",
+    title: "My Skills & Experiences",
   },
   {
-    id: "contact",
-    title: "Get in Touch",
+    path: "/Projects",
+    title: "My Projects & Reviews",
   },
   {
-    id: "connect",
+    path: "/Connect",
     title: "Let's Connect",
   },
 ];
@@ -237,6 +229,68 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Rovin Guard Limited",
+    description:
+      "Rovin Guard delivers quality-driven, professional services to safeguard personnel, infrastructure, maritime, technical and other valuable assets and investments.",
+    tags: [
+      {
+        name: "figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "wordpress",
+        color: "green-text-gradient",
+      },
+      {
+        name: "web-dev",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rovinguard,
+    source_code_link: "https:znexx.com",
+  },
+
+  {
+    name: "BrowPay Technologies",
+    description:
+      "Browpay help African businesses accept secure payments and protect online buyers from fraud. Ensuring that your next online transaction is not a scam is our business.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "web-dev",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: browpay,
+    source_code_link: "https://browpay.com",
+  },
+
+  {
+    name: "KudiKart",
+    description:
+      "Znexx Design Ltd is a design company providing service in 3D Animation, simulation, 3D Visualization, Engineering and professional training.",
+    tags: [
+      {
+        name: "figma",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "VIte/JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "web-dev",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dcatalogue,
+    source_code_link: "https:znexx.com",
+  },
+
+  {
     name: "Znexx Designs Limited",
     description:
       "Znexx Design Ltd is a design company providing service in 3D Animation, simulation, 3D Visualization, Engineering and professional training.",
@@ -257,23 +311,29 @@ const projects = [
     image: znexx_designs,
     source_code_link: "https:znexx.com",
   },
+
   {
-    name: "Finixx Consults",
+    name: "Znexx Designs Limited",
     description:
-      "Finixx Consulting offers fintech services, edutech services, financial and advisory services, business turnaround services, growth and expansion services.",
+      "Znexx Design Ltd is a design company providing service in 3D Animation, simulation, 3D Visualization, Engineering and professional training.",
     tags: [
       {
-        name: "wordpress",
+        name: "figma",
         color: "blue-text-gradient",
+      },
+      {
+        name: "wordpress",
+        color: "green-text-gradient",
       },
       {
         name: "web-dev",
         color: "pink-text-gradient",
       },
     ],
-    image: finixx,
-    source_code_link: "https://finixx.com.ng",
+    image: znexx_designs,
+    source_code_link: "https:znexx.com",
   },
+
   {
     name: "NFT.ng App",
     description:
@@ -298,3 +358,10 @@ const projects = [
 ];
 
 export { clients, services, technologies, experiences, testimonials, projects, footerLinks };
+
+
+export const Socials = [
+  {
+    
+  }
+]

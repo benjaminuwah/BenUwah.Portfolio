@@ -1,7 +1,7 @@
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
-import About from './About';
+import AboutMe from './About';
 import Clients from './Clients';
 import Tech from './Tech';
 import Experience from './Experience';
@@ -13,7 +13,7 @@ import Footer from './Footer';
 export {
   Hero,
   Navbar,
-  About,
+  AboutMe,
   Clients,
   Tech,
   Experience,

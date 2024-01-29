@@ -21,27 +21,22 @@ import mongodb from "./tech/mongodb.png";
 import nextjs from './tech/nextjs.png';
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import wordpress from "./tech/wordpress.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import khalikulture from "./company/khalikulture.jpeg";
 import iobotech from "./company/iobotech.png";
 import znexx from "./company/znexx.png";
 import chartdot from "./company/chartdot.jpeg";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import browpay from "./browpay.png";
 import znexx_designs from "./znexx_designs.png";
-import finixx from "./finixx.png";
 import nft_ng from "./nft_ng.png";
+import rovinguard from "./rovinguard.png";
+import dcatalogue from "./dcatalogue.png";
 
 import Frontend_Dev from "./Frontend_Dev.png";
 import dr_kosi from "./Dr Kosi.jpeg";
@@ -75,25 +70,18 @@ export {
   git,
   html,
   javascript,
-  mongodb,
   nextjs,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   znexx,
-  carrent,
-  jobit,
-  tripguide,
+  rovinguard,
+  browpay,
   znexx_designs,
-  finixx,
   nft_ng,
+  dcatalogue,
   wordpress,
   chartdot,
   dr_kosi,

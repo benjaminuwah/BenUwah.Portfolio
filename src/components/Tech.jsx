@@ -12,13 +12,13 @@ const Tech = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
+        <h2 className={`${styles.sectionHeadText}`}>My Tech Stack.</h2>        
         <p className={`${styles.sectionSubText} `}>Here are some of the technologies I employ when developing products and projects for my clients.</p> 
-        <h2 className={`${styles.sectionHeadText}`}>Technologies.</h2>        
       </motion.div>
-      <div className='flex flex-row flex-wrap justify-left gap-10 mt-10'>
+      <div className='flex flex-row flex-wrap justify-left gap-2 md:gap-10 mt-5'>
         {technologies.map((technology) => (
-          <div className='w-20 h-20' key={technology.name}>
-            <img src={technology.icon} className="bg-white rounded-full" />
+          <div className='w-16 h-16 md:w-20 md:h-20' key={technology.name}>
+            <img src={technology.icon} className="bg-white rounded-xl p-2" />
           </div>
         ))}
       </div>

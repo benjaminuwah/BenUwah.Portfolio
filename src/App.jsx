@@ -1,26 +1,34 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Footer, Clients } from "./components";
+import { Navbar, Footer} from "./components";
+import { Home, About, Connect, Projects, Skills } from "./pages";
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+        <div className='bg-black bg-cover bg-no-repeat bg-center'>
           <Navbar />
-          <Hero />
-        </div>
-        <About />
-        <Clients />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Connect" element={<Connect />} />
+            <Route path="/Skills" element={<Skills />} />
+            <Route path="/Projects" element={<Projects />} />
+          </Routes>
+          {/* <Hero /> */}
+        {/* </div> */}
+        {/* <About /> */}
+        {/* <Clients /> */}
         {/* <Experience /> */}
-        <Works />
-        <Tech />
-        <Feedbacks />
-        <div className='relative z-0'>
-          <Contact />
-          <StarsCanvas />
+        {/* <Works /> */}
+        {/* <Tech /> */}
+        {/* <Feedbacks /> */}
+        {/* <div className='relative z-0'> */}
+          {/* <Contact /> */}
+          {/* <StarsCanvas /> */}
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </BrowserRouter>
   );
